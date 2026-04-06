@@ -1,8 +1,9 @@
+
 :root{
     --primary-color: #0f172a;
-    --accent-color: #38bdf8;
-    --text-color: #333;
-    --bg-color: #e8ebee;
+    --accent-color: #3862f8;
+    --text-color: #ffffff;
+    --bg-color: #ffffff;
 }
 *{
     margin: 0;
@@ -11,8 +12,9 @@
 }
 
 body{
+    margin-top: 40px;
     font-family: Arial, sans-serif;
-    background-color: var(--bg-color);
+    background-color: black;
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -21,10 +23,10 @@ body{
     flex-direction: column;
     justify-content: center;
   
-    background-color: #fff;
+    background-color: #2e2e2e85;
     padding: 40px;
     border-radius: 8px;
-    border-top: 4px solid var(--accent-color);
+    border-top: 2px solid var(--accent-color);
 
 }
 .soc-dashboard{
@@ -41,9 +43,7 @@ body{
     .soc-dashboard{
         grid-template-columns: 1fr 1fr;
     }
-    :root{
-        --accent-color: #00ff006f;
-    }
+  
 
     
 }
@@ -53,9 +53,4 @@ body{
     .soc-dashboard{
         grid-template-columns: 1fr;
     }
-    :root{
-        --accent-color: #ff00009c;
-        
-    }
-
 }
